@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    
+    <question id="1">
+        <ask>What was the name of the first casino built on what is considered to be the current Las Vegas Strip?</ask>
+        <answer-map>
+            <answer id="1">El Cortez</answer>
+            <answer id="2">The Sands</answer>
+            <answer id="3">El Rancho Vegas</answer>
+            <answer id="4">Goldrush</answer>
+        </answer-map>
+        <correct id="3" />
+        <trivia>Opened Apr 3 1941</trivia>
+    </question>
+
+    <question id="2">
+        <ask>What does 'Las Vegas' mean?</ask>
+        <answer-map>
+            <answer id="1">The Meadows</answer>
+            <answer id="2">The Valley</answer>
+            <answer id="3">The Desert</answer>
+            <answer id="4">The Fields</answer>
+        </answer-map>
+        <correct id="1" />
+    </question>
+
+    <question id="3">
+        <ask>What was the first casino to be built in the Las Vegas area?</ask>
+        <answer-map>
+            <answer id="1">The Desert Inn</answer>
+            <answer id="2">Pair O' Dice Club</answer>
+            <answer id="3">El Rancho Vegas</answer>
+            <answer id="4">Golden Nugget</answer>
+        </answer-map>
+        <correct id="2" />
+        <trivia>Opened in 1931</trivia>
+    </question>
+    
+</questions>
