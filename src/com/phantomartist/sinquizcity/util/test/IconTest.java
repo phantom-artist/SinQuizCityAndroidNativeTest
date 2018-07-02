@@ -5,6 +5,9 @@ import com.phantomartist.sinquizcity.util.Icon;
 
 import junit.framework.TestCase;
 
+/**
+ * Test the different icons that can appear in the game
+ */
 public class IconTest extends TestCase {
 	
 	public void testIcon() {

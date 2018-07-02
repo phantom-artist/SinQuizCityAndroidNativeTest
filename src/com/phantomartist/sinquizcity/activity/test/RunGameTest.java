@@ -12,6 +12,9 @@ import com.phantomartist.sinquizcity.game.QuestionAndAnswers;
 import com.phantomartist.sinquizcity.util.Bars;
 import com.phantomartist.sinquizcity.util.Questions;
 
+/**
+ *
+ */
 public class RunGameTest extends ActivityInstrumentationTestCase2<GameDisplay> {
 
 	public RunGameTest() {
@@ -23,17 +26,23 @@ public class RunGameTest extends ActivityInstrumentationTestCase2<GameDisplay> {
 		super.setUp();
 	}
 	
+	/**
+	 * Test the XML parsing works as expected
+	 */
 	public void testXMLParser() {
 		
 		try {
 			Context context = getActivity();
 			Questions parser = Questions.getInstance();
 			ArrayList<QuestionAndAnswers> list = parser.getShuffledQuestions();
+			
 			assertTrue(list != null && list.size() == 100);
 			
 			Bars bars = Bars.getInstance();
 			ArrayList<Bar> barList = bars.getBars();
+			
 			assertTrue(barList != null && barList.size() == 20);
+			
 		} catch (Exception e) {
 			fail(e.toString());
 		}
